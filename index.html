@@ -76,7 +76,7 @@
 			function loadJS(url, isExternal)
 			{
 				if( isExternal )
-					url = document.location.protocol == 'file:' ? 'http:' + url : url;
+					url = document.location.protocol == 'file:' ? 'https:' + url : url;
 				else
 					url += '?v=' + version + (!isProduction ? '&_=' + new Date().getTime() : '');
 					
@@ -205,7 +205,7 @@
 				<div class="rightArea">
 					<div class="social">
 						<span class="msLink">
-							<a href="http://storymaps.arcgis.com" target="_blank" tabindex="-1"></a>
+							<a href="https://storymaps.arcgis.com" target="_blank" tabindex="-1"></a>
 						</span>
 						<i class="shareIcon share_facebook icon-facebook-squared"></i>
 						<i class="icon-twitter shareIcon share_twitter"></i>
