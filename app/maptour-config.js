@@ -9,10 +9,10 @@ APPCFG = {
 	
 	// Header Logo
 	HEADER_LOGO_URL: "resources/icons/esri-logo.png",
-	HEADER_LOGO_TARGET: "http://www.esri.com",
+	HEADER_LOGO_TARGET: "https://www.esri.com",
 	// Header top right link
 	HEADER_LINK_TEXT: "A story map",
-	HEADER_LINK_URL: "http://storymaps.arcgis.com",
+	HEADER_LINK_URL: "https://storymaps.arcgis.com",
 	// Control display of Facebook and Twitter links
 	HEADER_SOCIAL: {
 		facebook: true,
@@ -125,7 +125,7 @@ APPCFG = {
 	// Builder
 	//
 	
-	HELP_URL: "http://links.esri.com/storymaps/map_tour_template",
+	HELP_URL: "https://links.esri.com/storymaps/map_tour_template",
 	HELP_URL_PORTAL: "#/Story_Map_Tour/0193000000w0000000/",
 
 	// Control the authorized data source (for initialization and import screen)
