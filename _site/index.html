@@ -54,7 +54,7 @@
 				// The application header title, if no title is specified, the webmap's title is used
 				title: "",
 				// The application header subtitle, if not specified the ArcGIS.com web map's summary is used
-				subtitle: "",
+				subtitle:"A selection of murals, past and present, since the earthquakes.<br><br><img src='resources/markers/red/NumberIconr1.png' height='13px'/>= Private/Unaffiliated<img src='resources/markers/purple/IconPurple1.png' height='13px'/>= Unknown<img src='resources/markers/blue/NumberIconb1.png' height='13px'/>= Council related<img src='resources/markers/green/NumberIcong1.png' height='13px'/>= Decommissioned",
 				// Optionally force a web map layer to be used as the tour points data source (can be overridden through URL)
 				// Otherwise the upper visible point layer is used (excluding map notes)
 				sourceLayerTitle: "",
@@ -1186,7 +1186,7 @@
 
 		<!-- Enable Google Analytics on storymaps.esri.com -->
 		<script type="text/javascript">
-			if (window.location.href.toLowerCase().indexOf("storymaps.esri.com") >= 0) {
+			//if (window.location.href.toLowerCase().indexOf("storymaps.esri.com") >= 0) {
 				var _gaq = _gaq || [];
 				_gaq.push(['_setAccount', 'UA-84316316-1']);
 				_gaq.push(['_trackPageview']);
@@ -1196,7 +1196,7 @@
 					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 				})();
-			}
+			//}
 		</script>
 
 		<script type="text/javascript">
