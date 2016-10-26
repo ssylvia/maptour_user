@@ -8,7 +8,7 @@ APPCFG = {
 	EMBED: false,
 
 	// Header Logo
-	HEADER_LOGO_URL: "resources/icons/spraycan.png",
+	HEADER_LOGO_URL: "resources/icons/email.png",
 	HEADER_LOGO_TARGET: "",
 	// Header top right link
 	HEADER_LINK_TEXT: "Found a new mural?",
